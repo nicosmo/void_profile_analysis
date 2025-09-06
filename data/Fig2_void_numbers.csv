@@ -1,0 +1,51 @@
+simulation,tracer sample,mass cut,redshift,void count
+midres,subhalos,10^12 M_sol / h,0.00E+00,366709
+midres,subhalos,10^12 M_sol / h,0.25,358790
+midres,subhalos,10^12 M_sol / h,0.29,356597
+midres,subhalos,10^12 M_sol / h,0.38,351944
+midres,subhalos,10^12 M_sol / h,0.47,346192
+midres,subhalos,10^12 M_sol / h,0.67,329928
+midres,subhalos,10^12 M_sol / h,0.9,308280
+midres,subhalos,10^12 M_sol / h,1.18,274096
+midres,subhalos,10^12 M_sol / h,1.98,164748
+midres,subhalos,10^12 M_sol / h,2.79,77029
+midres,CDM subsample,N/A,0.00E+00,538255
+midres,CDM subsample,N/A,0.29,600273
+midres,CDM subsample,N/A,0.47,638101
+midres,CDM subsample,N/A,0.67,680858
+midres,CDM subsample,N/A,0.9,726887
+midres,CDM subsample,N/A,1.18,778460
+midres,CDM subsample,N/A,1.98,899696
+midres,CDM subsample,N/A,2.79,987132
+highres,subhalos,10^11 M_sol / h,0.25,33254
+highres,subhalos,10^11 M_sol / h,0.29,33324
+highres,subhalos,10^11 M_sol / h,0.34,33663
+highres,subhalos,10^11 M_sol / h,0.38,33998
+highres,subhalos,10^11 M_sol / h,0.42,34155
+highres,subhalos,10^11 M_sol / h,0.47,34155
+highres,subhalos,10^11 M_sol / h,0.57,34082
+highres,subhalos,10^11 M_sol / h,0.62,34237
+highres,subhalos,10^11 M_sol / h,0.67,34254
+highres,subhalos,10^11 M_sol / h,0.73,34206
+highres,subhalos,10^11 M_sol / h,0.78,34131
+highres,subhalos,10^11 M_sol / h,0.84,34089
+highres,subhalos,10^11 M_sol / h,0.9,33814
+highres,subhalos,10^11 M_sol / h,0.96,33505
+highres,subhalos,10^11 M_sol / h,1.04,33278
+highres,subhalos,10^11 M_sol / h,1.18,32752
+highres,subhalos,10^11 M_sol / h,1.32,31966
+highres,subhalos,10^11 M_sol / h,1.71,29191
+highres,subhalos,10^11 M_sol / h,1.98,26767
+highres,subhalos,10^11 M_sol / h,2.79,18338
+highres,subhalos,10^11 M_sol / h,3.42,12510
+highres,subhalos,10^11 M_sol / h,4.23,6866
+highres,subhalos,10^11 M_sol / h,5.04,3312
+highres,CDM subsample,N/A,0.25,51741
+highres,CDM subsample,N/A,0.47,57081
+highres,CDM subsample,N/A,0.67,62261
+highres,CDM subsample,N/A,0.9,68187
+highres,CDM subsample,N/A,1.18,74419
+highres,CDM subsample,N/A,1.98,91589
+highres,CDM subsample,N/A,2.79,105813
+highres,CDM subsample,N/A,4.23,123159
+highres,CDM subsample,N/A,5.04,130592
