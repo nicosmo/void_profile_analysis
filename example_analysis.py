@@ -24,7 +24,7 @@ N_TRACERS = 5000000
 
 np.random.seed(42)
 mock_posVoid = np.random.rand(N_VOIDS, 3) * LBOX
-mock_radVoid = np.random.uniform(10, 50, N_VOIDS)  # Increased range for better selection
+mock_radVoid = np.random.uniform(10, 50, N_VOIDS)
 mock_voidIDs = np.arange(N_VOIDS)
 mock_posTracer = np.random.rand(N_TRACERS, 3) * LBOX
 mock_velTracer = np.random.normal(0, 100, (N_TRACERS, 3))
@@ -37,7 +37,6 @@ SAVE_FILE = "mock_individual_profiles.hdf5"
 PROFILES_TO_CALC = ['number_density', 'velocity', 'volume_weighted']
 
 print(f"\n--- Calculating and Saving {len(PROFILES_TO_CALC)} Profile Types ---")
-# This function call remains the same
 voidProfiles.calculate_and_save_individual_profiles(
     save_path=SAVE_FILE,
     voidIDs=mock_voidIDs,
@@ -76,7 +75,7 @@ selected_voids_data = voidProfiles.select_voids(
 # --- 5. Stack the Selected Profiles ---
 print("\n--- Stacking Selected Profiles ---")
 
-# Pre-calculate mean density and weight needed for the updated stacking function
+# Pre-calculate mean density and weight needed for the stacking function
 mean_tracer_dens = len(mock_posTracer) / (LBOX**3)
 mean_tracer_weight = np.mean(mock_tracerWeights)
 
@@ -85,7 +84,7 @@ stacked_number_density = voidProfiles.stack_void_profiles(
     data=selected_voids_data,
     profile_type='number_density',
     return_density_contrast=True, # Returns rho/rho_bar - 1
-    nz=mean_tracer_dens, # Pass the required arguments
+    nz=mean_tracer_dens,
     meanWeight=mean_tracer_weight
 )
 
@@ -122,7 +121,7 @@ if stacked_number_density:
 try:
     #
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 10), sharex=True)
-    fig.suptitle("Stacked Void Profiles for Mock Data ($30 < R_v < 40$ Mpc/h)", fontsize=16)
+    fig.suptitle("Stacked Void Profiles for Mock Data ($20 < R_v < 40$ Mpc/h)", fontsize=16)
     #
     # Plot number_density
     if stacked_number_density:
@@ -156,7 +155,7 @@ try:
         )
         #
     #
-    # **NEW:** Plot individual velocity stack
+    # Plot individual velocity stack
     if stacked_velocity_individual:
         #
         ax2.errorbar(
@@ -188,6 +187,7 @@ except ImportError:
 except Exception as e:
     #
     print(f"\nAn error occurred during plotting: {e}")
+
 
 
 
