@@ -28,7 +28,7 @@ This toolkit provides a complete workflow for **void stacking**, a technique whe
 * **Flexible Backend:** Automatically uses the optimized **VIDE** library for periodic k-d tree searches if installed. Falls back to a `scipy.spatial.cKDTree` implementation if VIDE is not found.
 * **Multiple Profile Types:** Natively supports density and velocity profiles:
     * `number_density`: The number of tracers per unit volume.
-    * `volume_weighted` / `mass_weighted`: Density profiles weighted by a tracer property (e.g., volume or mass).
+    * `volume_weighted` / `mass_weighted`: Density profiles weighted by a tracer property (e.g., volume or mass). Volumes are needed to calculate the final velocity profiles.
     * `velocity`: The average radial velocity profile, crucial for studying void dynamics.
 * **Robust Error Estimation:** Implements the Jackknife resampling technique to calculate the covariance matrix and the standard error on the stacked profile.
 * **Modular Workflow:** You can calculate profiles once and save them, then experiment with different selection criteria and stacking options later.
