@@ -15,8 +15,6 @@ Based on [arXiv:2210.02457](https://arxiv.org/abs/2210.02457) and [arXiv:2312.11
 ---
 
 ## Overview
-In cosmology, the large-scale structure of the universe is a cosmic web of filaments, clusters, and voids. Voids are the vast, underdense regions that contain very few galaxies. Studying the properties of matter and galaxies around voids provides crucial insights into the nature of dark energy, gravity, and galaxy formation.
-
 This toolkit provides a complete workflow for **void stacking**, a technique where we average the radial profiles of many individual voids to measure a high signal-to-noise profile. The process involves:
 1.  Calculating individual profiles for thousands of voids in parallel.
 2.  Saving these intermediate results to an HDF5 file, so they can be analyzed later without recalculating.
