@@ -1,7 +1,7 @@
 # Void Profile Analysis Toolkit
 > A Python toolkit for calculating, saving, and stacking radial profiles around cosmic voids from cosmological simulation data. The core functionality is to measure physical properties—such as tracer density and velocity—in spherical shells as a function of distance from a void's center. The toolkit includes robust methods for error estimation using Jackknife resampling.
 
-Based on [arXiv:2210.02457](https://arxiv.org/abs/2210.02457) and [arXiv:2312.11241](https://arxiv.org/abs/2312.11241).
+Based on [arXiv:2210.02457](https://arxiv.org/abs/2210.02457),  [arXiv:2312.11241](https://arxiv.org/abs/2312.11241) and  [arXiv:2509.07092](https://arxiv.org/abs/2509.07092)
 
 ---
 
