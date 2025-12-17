@@ -1,10 +1,24 @@
 # Void Profile Analysis Toolkit
 > A Python toolkit for calculating, saving, and stacking radial profiles around cosmic voids from cosmological simulation data. The core functionality is to measure physical properties—such as tracer density and velocity—in spherical shells as a function of distance from a void's center. The toolkit includes robust methods for error estimation using Jackknife resampling.
 
-This software implements the methods described in the following publications. If this toolkit contributes to a project that leads to a publication, we would appreciate a citation to the relevant papers:
-* **[arXiv:2210.02457](https://arxiv.org/abs/2210.02457)** (core methodology)
-* **[arXiv:2312.11241](https://arxiv.org/abs/2312.11241)** (science application)
-* **[arXiv:2509.07092](https://arxiv.org/abs/2509.07092)** (science application)
+
+
+If this toolkit contributes to a project that leads to a publication, please cite both the software (for reproducibility) and the relevant methodological papers.
+
+### Software
+Please cite the code using the permanent Zenodo record:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17967174.svg)](https://doi.org/10.5281/zenodo.17967174)
+
+> Schuster, N. (2025). Void Profile Analysis Toolkit [Software]. Zenodo. https://doi.org/10.5281/zenodo.17967174
+
+### Publications
+This software implements methods described in the following papers:
+
+* **Core Methodology:** [arXiv:2210.02457](https://arxiv.org/abs/2210.02457)
+* **Science Application:** [arXiv:2312.11241](https://arxiv.org/abs/2312.11241)
+* **Science Application:** [arXiv:2509.07092](https://arxiv.org/abs/2509.07092)
+
 
 ---
 
