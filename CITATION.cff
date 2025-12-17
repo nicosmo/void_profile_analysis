@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Schuster"
+    given-names: "Nico"
+    orcid: "https://orcid.org/0000-0001-5620-8554"
+title: "Void Profile Analysis Toolkit"
+doi: 10.5281/zenodo.17967174
+url: "https://github.com/nicosmo/void_profile_analysis"
